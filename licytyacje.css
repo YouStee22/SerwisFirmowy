@@ -1,0 +1,46 @@
+#spanLicytyacje {
+    font-size: 30px;
+}
+#left {
+    font-size: 19px;
+    font-weight: bold;
+}
+#right span:first-child {
+    font-size: 22px;
+    color: gray;
+}
+#right {
+    padding: 70px;
+}
+#right:nth-child(2) {
+    font-size: 30px;
+    color: rgb(117, 2, 2);
+}
+#leftSt1 span:first-child  {
+    font-size: 32px;
+}
+#leftSt1:nth-child(2)  {
+    font-weight: bold;
+}
+#rightSt1 button {
+    margin-top: 50px;
+}
+#rightSt1 {
+    padding: 60px;
+}
+.shop-con {
+    position: relative;
+    overflow: auto;
+}
+.ended {
+    position: absolute;
+    /* left: 10%; */
+    top: 20%;
+    /* transform: translate(-50%, -50%); */
+    font-size: 100px;
+    color: red;
+    font-weight: bold;
+    transform: rotate(20deg);
+    opacity: 0;
+    z-index: 10;
+}
